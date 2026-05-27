@@ -24,6 +24,21 @@ A production-style backend for asynchronous AI media processing with a simple Re
 
 ---
 
+---
+
+## 📸 UI Preview
+
+### 🏠 Home Page
+![Home Page](docs/images/home.png)
+
+### 📊 Task Status Page
+![Task Status](docs/images/task_status.png)
+
+### ⚙️ Backend / Celery Terminal
+![Celery Worker](docs/images/terminal.png)
+
+---
+
 ## API Endpoints
 
 - **POST** `/api/tasks/create/` : Create a new AI task (POST-only). Use multipart/form-data for uploads or text fields. Returns `201` with the created task `id` (UUID) and initial `status`.
