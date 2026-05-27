@@ -29,13 +29,16 @@ A production-style backend for asynchronous AI media processing with a simple Re
 ## 📸 UI Preview
 
 ### 🏠 Home Page
-![Home Page](docs/images/home.png)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9b018a20-084a-4d12-93fd-54fed588dcde" />
+
+### Login Using JWT Authentication
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/cacfca9d-37ad-45bb-a5ab-58822a11a5b6" />
 
 ### 📊 Task Status Page
-![Task Status](docs/images/task_status.png)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/785535b5-2a0c-4333-ac8e-fb0253626227" />
 
-### ⚙️ Backend / Celery Terminal
-![Celery Worker](docs/images/terminal.png)
+### ⚙️ Backend / Celery,redis Terminal
+<img width="1500" height="881" alt="Image" src="https://github.com/user-attachments/assets/50ed9bd9-0109-4315-975b-5171d49cd2df" />
 
 ---
 
@@ -74,20 +77,7 @@ Note: The create endpoint enforces POST; the Task retrieval endpoint uses GET.
 5. Worker saves structured result to DB and updates task `status`
 6. Frontend polls the Task Status endpoint or uses chat UI polling to show results
 
-### Diagram (add images here)
 
-Add the frontend architecture image in the diagram area. Recommended filenames/paths:
-
-- System architecture: `docs/images/architecture.png`
-- Frontend diagram: `docs/images/frontend_architecture.png`
-
-Place your frontend image at the second path above and it will appear below the main architecture diagram.
-
-![Architecture Diagram - placeholder](docs/images/architecture.png)
-
-![Frontend Diagram - placeholder](docs/images/frontend_architecture.png)
-
----
 
 ## Folder structure
 
